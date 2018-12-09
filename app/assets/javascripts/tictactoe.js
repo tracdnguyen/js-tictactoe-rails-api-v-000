@@ -17,6 +17,7 @@ var WIN_COMBOS = [
     return turn % 2 ? "O" : "X"
   }
 
+<<<<<<< HEAD
   function updateState(clicked) {
     clicked.innerHTML = player()
   }
@@ -114,3 +115,8 @@ function attachListeners(){
 $(document).ready(function(){
   attachListeners();
 });
+=======
+  function updateState() {
+    
+  }
+>>>>>>> c59d3db135e881ac53a0e5c7eee976ee66842232
